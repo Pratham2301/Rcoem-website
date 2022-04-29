@@ -1,0 +1,145 @@
+body {
+    background-image: url(images/back-img.jpg);
+    background-repeat: repeat;
+    margin: 0;
+}
+
+/***************************TAGS SELECTOR***********************/
+
+a{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}
+
+li{
+    color: rgb(169, 207, 207);
+    font-size: 20px;
+    font-size: x-large;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+/***************************ID SELECTOR***********************/
+
+
+
+#rcoem{
+    width: 40vw;
+    font-size: xx-large;
+    align-items: center;
+    position: relative;
+    bottom: 10px;
+    
+}
+
+#rcoem:hover{
+    color: orange;
+}
+
+#head-vision{
+
+    font-size:50px;
+}
+
+#para-vision{
+    font-size:30px;
+}
+
+#head-mission{
+
+    font-size:50px;
+}
+
+#para-mission{
+    font-size:30px;
+}
+
+#head-feature{
+    font-size:50px;
+    margin-bottom: 100px;
+}
+
+#para-feature{
+    font-size:30px;
+}
+
+/***************************CLASS SELECTOR***********************/
+
+.navbar {
+    background-color: rgb(19, 11, 69);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    position: fixed;
+    width: 96vw;
+    height: 3vh;
+    align-items: center;
+    top: 0px;
+}
+
+.links{
+    float: right;
+    padding: 10px;
+    margin-right: 30px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.div-ug{
+    
+    background-color: rgb(250, 238, 223);
+    margin-top: 150px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    height: 70vh;
+    width: 30vw;
+    padding: 10px;
+    text-align: center;
+}
+
+.courses{
+    background-color: aqua;
+
+}
+
+.div-info{
+    background-image: url(images/back-img-vision.svg);
+    height: 100vh;
+}
+
+.vision{
+    color: black;
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+}
+
+.mission{
+    color: black;
+    text-align: center;
+    margin: 50px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.div-feature{
+    color: rgb(169, 207, 207);
+    text-align: center;
+    margin-top: 0;
+    height: 95vh;
+    background-image: url(images/back-img-features.jpg);
+    padding: 30px 50px;
+}
+
+
+
+
+
